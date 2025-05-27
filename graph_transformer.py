@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/work/LAS/weile-lab/howlader/cancer-net')
+sys.path.append('/home/tirtho/cancernet/cancer-net/demos')
 import torch_geometric.transforms as T
 from cancernet.arch import PNet
 from cancernet.util import ProgressBar, InMemoryLogger, get_roc
